@@ -29,3 +29,7 @@ module "postgresql" {
 ```
 
 A complete example is available in the [example](https://github.com/jsiebens/terraform-google-inlets-iap/tree/main/example) folder. 
+
+## Blog post
+
+[Control Access to your on-prem services with Cloud IAP and inlets PRO](https://johansiebens.dev/posts/2020/12/control-access-to-your-on-prem-services-with-cloud-iap-and-inlets-pro/)
