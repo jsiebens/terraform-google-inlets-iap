@@ -5,7 +5,7 @@ sudo systemctl restart sshd
 
 export AUTHTOKEN="${token}"
 export IP=$(curl -sfSL -H "Metadata-Flavor: Google" http://metadata/computeMetadata/v1/instance/network-interfaces/0/access-configs/0/external-ip)
-curl -SLsf https://github.com/inlets/inlets-pro/releases/download/0.7.2/inlets-pro > /tmp/inlets-pro && \
+curl -SLsf https://github.com/inlets/inlets-pro/releases/download/0.8.5/inlets-pro > /tmp/inlets-pro && \
   chmod +x /tmp/inlets-pro  && \
   mv /tmp/inlets-pro /usr/local/bin/inlets-pro
 
